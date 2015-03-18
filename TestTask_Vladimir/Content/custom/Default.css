@@ -1,0 +1,51 @@
+.ui-tooltip{
+    position: absolute;
+    border-radius: 3px; 
+	  border: 2px solid #000;
+	  background: gray;
+	  color: #fff;
+}
+
+.wordsContainer {
+    width: 80%;    
+    background-color: white;
+    border: 1px solid;
+    border-color: gray;    
+}
+
+span{
+    font-size: 90%;
+    margin-left: 3px;
+    margin-right: -4px;
+}
+
+pre{
+    font-family:Verdana;    
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    margin-top: 1%;
+}
+
+span.singleWord {
+    display: inline-block;    
+    font-size: 95%;
+    text-indent: 2px;
+    margin-right: -4px;       
+}
+
+.langBox {
+    width: 300px;
+    height: 40px;
+    margin: -1px;  
+    font-family: Verdana;
+    font-size: 95%;
+    border: 1px solid;
+    border-color: gray;
+}
+
+#wordsArea{
+    resize: vertical;
+    width: 98%;
+    margin: 2px;
+    min-height: 50px;
+}
